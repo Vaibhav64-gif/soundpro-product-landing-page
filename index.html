@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta
+        name="description"
+        content="Premium wireless headphones with multiple variants and easy enquiry."
+    >
+
+    <title>SoundPro — Premium Wireless Headphones</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <div class="container nav-wrapper">
+
+            <a href="#" class="logo">Sound<span>Pro</span></a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <nav class="nav" id="mainNav">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#product">Product</a>
+                <a href="#enquiry">Enquiry</a>
+            </nav>
+
+        </div>
+    </header>
+
+
+    <main>
+
+        <!-- Hero -->
+        <section class="hero" id="home">
+            <div class="container hero-grid">
+
+                <div class="hero-content">
+                    <p class="eyebrow">NEXT GENERATION AUDIO</p>
+
+                    <h1>
+                        Experience Sound
+                        <span>Without Limits.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Meet SoundPro, premium wireless headphones engineered
+                        for immersive sound, all-day comfort and effortless
+                        connectivity.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#product" class="btn btn-primary">
+                            Explore Product
+                        </a>
+
+                        <a href="#enquiry" class="btn btn-secondary">
+                            Enquire Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-image">
+                    <div class="image-circle"></div>
+
+                    <img
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=900&q=85"
+                        alt="SoundPro wireless headphones"
+                    >
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Features -->
+        <section class="features" id="features">
+            <div class="container">
+
+                <div class="section-heading">
+                    <p class="eyebrow">WHY SOUNDPRO</p>
+                    <h2>Designed for your everyday.</h2>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon">♫</div>
+                        <h3>Immersive Audio</h3>
+                        <p>
+                            Rich, balanced audio with powerful bass and
+                            crystal-clear highs.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">◉</div>
+                        <h3>Active Noise Control</h3>
+                        <p>
+                            Stay focused with intelligent noise cancellation
+                            wherever you go.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon">⚡</div>
+                        <h3>Long Battery Life</h3>
+                        <p>
+                            Enjoy up to 40 hours of playback on a single
+                            charge.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Product -->
+        <section class="product-section" id="product">
+            <div class="container product-grid">
+
+                <div class="product-image">
+                    <img
+                        src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1000&q=85"
+                        alt="SoundPro headphones product"
+                    >
+                </div>
+
+                <div class="product-info">
+
+                    <p class="eyebrow">SOUNDPRO HEADPHONES</p>
+
+                    <h2>Premium wireless audio.</h2>
+
+                    <p class="product-description">
+                        Crafted for people who expect more from their music.
+                        SoundPro combines premium materials, adaptive noise
+                        cancellation and powerful wireless performance.
+                    </p>
+
+                    <!-- Variant -->
+                    <div class="option-group">
+                        <label for="variant">Choose Variant</label>
+
+                        <select id="variant">
+                            <option value="standard">
+                                Standard — ₹7,999
+                            </option>
+
+                            <option value="pro">
+                                Pro — ₹10,999
+                            </option>
+
+                            <option value="elite">
+                                Elite — ₹13,999
+                            </option>
+                        </select>
+                    </div>
+
+
+                    <!-- Quantity -->
+                    <div class="option-group">
+                        <label>Quantity</label>
+
+                        <div class="quantity-control">
+                            <button
+                                type="button"
+                                id="decrease"
+                                aria-label="Decrease quantity"
+                            >
+                                −
+                            </button>
+
+                            <span id="quantity">1</span>
+
+                            <button
+                                type="button"
+                                id="increase"
+                                aria-label="Increase quantity"
+                            >
+                                +
+                            </button>
+                        </div>
+                    </div>
+
+
+                    <!-- Price -->
+                    <div class="price-box">
+                        <span>Total Price</span>
+                        <strong id="totalPrice">₹7,999</strong>
+                    </div>
+
+                    <a href="#enquiry" class="btn btn-primary product-cta">
+                        Enquire About This Product
+                    </a>
+
+                </div>
+
+            </div>
+        </section>
+
+
+        <!-- Enquiry -->
+        <section class="enquiry-section" id="enquiry">
+            <div class="container enquiry-grid">
+
+                <div class="enquiry-content">
+                    <p class="eyebrow">GET IN TOUCH</p>
+
+                    <h2>Interested in SoundPro?</h2>
+
+                    <p>
+                        Fill in your details and our team will get back to you
+                        with product information and availability.
+                    </p>
+
+                    <div class="contact-points">
+                        <div>
+                            <strong>Fast Response</strong>
+                            <span>We usually respond within 24 hours.</span>
+                        </div>
+
+                        <div>
+                            <strong>Product Assistance</strong>
+                            <span>Get help choosing the right variant.</span>
+                        </div>
+                    </div>
+                </div>
+
+
+                <form class="enquiry-form" id="enquiryForm" novalidate>
+
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+
+                        <input
+                            type="text"
+                            id="name"
+                            name="name"
+                            placeholder="Enter your name"
+                        >
+
+                        <small class="error" id="nameError"></small>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="email">Email Address</label>
+
+                        <input
+                            type="email"
+                            id="email"
+                            name="email"
+                            placeholder="you@example.com"
+                        >
+
+                        <small class="error" id="emailError"></small>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            placeholder="10-digit mobile number"
+                        >
+
+                        <small class="error" id="phoneError"></small>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+
+                        <textarea
+                            id="message"
+                            name="message"
+                            rows="4"
+                            placeholder="Tell us what you'd like to know..."
+                        ></textarea>
+
+                        <small class="error" id="messageError"></small>
+                    </div>
+
+
+                    <button type="submit" class="btn btn-primary form-submit">
+                        Send Enquiry
+                    </button>
+
+                    <div
+                        class="success-message"
+                        id="successMessage"
+                        role="alert"
+                    >
+                        ✓ Thank you! Your enquiry has been submitted
+                        successfully.
+                    </div>
+
+                </form>
+
+            </div>
+        </section>
+
+    </main>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-content">
+            <p>© 2026 SoundPro. All rights reserved.</p>
+
+            <p>Premium audio. Simply better.</p>
+        </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
